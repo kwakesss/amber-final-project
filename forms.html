@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML FORMS PROTOTYPE</title>
+        <link rel="stylesheet" type="text/CSS" href="forms.css">
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <form>
+            <div>
+                <label> Roll no.: </label>
+                <input type="number" name="Roll Number">
+            </div>
+            <br>
+            <div>
+                <label>Student name:</label>
+                <input type="text" name="first name" placeholder="First Name">
+                <input type="text" name="Last name" placeholder="Last Name">
+            </div>
+            <br>
+            <div>
+                <label>Father's name:</label>
+                <input type="text" name="Father's name">
+            </div>
+            <br>
+            <div>
+                <label> Date of birth:</label>
+                <input type="number" name="day" placeholder="day">
+                <input type="number" name="month" placeholder="month">
+                <input type="number" name="year" placeholder="year">(MM-DD-YYYY)
+            </div>
+            <br>
+            <div>
+                <label>Mobile no:</label>
+                <input type="tel" name="Mobile number" placeholder="+91">
+                <input type="tel" name="Mobile number">
+            </div>
+            <br>
+            <div>
+                <label>Email id.:</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Password.:</label>
+                <input type="password" name="password" value="password">
+            </div>
+            <br>
+            <div>
+                <label>Gender.:</label>
+                <input type="radio" name="Gender" value="Male">Male
+                <input type="radio" name="Gender" value="Female">Female
+            </div>
+            <br>
+            <div>
+                <label>Department.:</label>
+                <input type="checkbox" name="department" value="CSE">CSE
+                <input type="checkbox" name="department" value="IT">IT
+                <input type="checkbox" name="department" value="ECE">ECE
+                <input type="checkbox" name="department" value="Civil">Civil
+                <input type="checkbox" name="department" value="Mech">Mech
+            </div>
+            <br>
+            <div>
+                <label>Course.:</label>
+                <select name="Course" id="Course">
+                    <option value=".........Select Current Course...........">Select Current Course</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Student photo</label>
+                <input type="file" name="Choose file">
+            </div>
+            <br>
+            <div>
+                <label>City</label>
+                <input type="text" name="City">
+            </div>
+            <br>
+            <div>
+                <Label>Address</Label>
+                <input type="text" name="Address">
+            </div>
+            <br>
+        </form>
+    </body>
+    <footer>
+        <div>
+            <input type="submit" name="Register" placeholder="Register">
+        </div>
+    </footer>
+</html>
